@@ -2,10 +2,10 @@
 A simple Spring Boot REST based CRUD server
 
 # design
-+ Spring Boot (@RestService)
++ Spring Boot (@RepositoryRestResourcee with default RepositoryRestHandlerMappings == basic CRUD operations)
 + Spring Data JPA 
 + H2 in memory DB
-+ Spring MVC (Middle ground between unit/integration test)
++ Spring MVC Tests (Middle ground between unit/integration test; basic CRUD tests)
 
 # build
 mvn package
